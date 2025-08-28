@@ -75,10 +75,10 @@ All commands should be run from the **root directory** of the project.
 
 ```bash
 # Run a small, default campaign for testing
-python experiments/run_campaign.py
+python scripts/run_campaign.py
 
 # Run a more specific campaign
-python experiments/run_campaign.py --key-sizes 64 --configs vuln_50us --num-keys 5
+python scripts/run_campaign.py --key-sizes 64 --configs vuln_50us --num-keys 5
 ```
 
 ### Command-Line Arguments
